@@ -3,8 +3,19 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+:root {
+  --color-rust: #d13f11;
+  --color-lime: #c5ff8b;
+  --color-green: #0dad31;
+  --color-babypuke: #b8d30a;
+  --color-orange: #ef8411;
+  --color-darkgreen: #237417;
+  --primaryfont: 'Andada Pro', serif;
+  --bodyfont: 'Ubuntu', sans-serif;
+}
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--bodyfont);
   color: #272829;
 }
 
@@ -18,7 +29,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--primaryfont);
 }
 
 /*--------------------------------------------------------------
@@ -82,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primaryfont);
 }
 
 #header .profile h1 a, #header .profile h1 a:hover {
@@ -239,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primaryfont);
 }
 
 #hero p span {
@@ -366,7 +377,7 @@ section {
 .facts .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
-  font-family: "Raleway", sans-serif;
+  font-family: var(--primaryfont);
   font-size: 14px;
   color: #122f57;
 }
@@ -377,7 +388,7 @@ section {
   margin-top: 20px;
   color: #122f57;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primaryfont);
   transition: ease-in-out 0.3s;
 }
 
@@ -400,7 +411,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primaryfont);
   color: #050d18;
 }
 
@@ -443,7 +454,7 @@ section {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primaryfont);
   color: #050d18;
   margin-bottom: 10px;
 }
